@@ -63,7 +63,7 @@ public class Sort{
           temp[k] = arr[j];
           j++; k++;
       }
-      for(i = leftStart, i <= rightEnd; i++) {
+      for(i = leftStart; i <= rightEnd; i++) {
           arr[i] = temp[i];
       }
   }
