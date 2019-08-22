@@ -100,6 +100,8 @@ public class Sort{
                 arr[j] = arr[j - 1];
                 j--;
             } while (j > 0 && toInsert < arr[j - 1]);
+
+            arr[j] = toInsert;
           }
       }
   }
